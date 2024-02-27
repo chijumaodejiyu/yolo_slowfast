@@ -182,8 +182,8 @@ def main(config):
     
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input', type=str, default="/home/wufan/images/video/vad.mp4", help='test imgs folder or video or camera')
-    parser.add_argument('--output', type=str, default="output.mp4", help='folder to save result imgs, can not use input folder')
+    parser.add_argument('--input', type=str, default="video/test.mp4", help='test imgs folder or video or camera')
+    parser.add_argument('--output', type=str, default="output/output.mp4", help='folder to save result imgs, can not use input folder')
     # object detect config
     parser.add_argument('--imsize', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--conf', type=float, default=0.4, help='object confidence threshold')
